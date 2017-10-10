@@ -213,6 +213,12 @@ namespace NetTopologySuite.IO.Converters
         {
             GeoJsonObjectType? geometryType = null;
             List<object> coords = null;
+
+            if (reader.TokenType == JsonToken.Null)
+            {
+                return null;
+            }
+            
             while (reader.Read())
             {
                 if (reader.TokenType == JsonToken.EndObject)

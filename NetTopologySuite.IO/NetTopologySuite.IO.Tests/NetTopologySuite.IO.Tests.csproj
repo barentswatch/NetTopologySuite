@@ -90,6 +90,7 @@
     <Compile Include="GeoJSON\Issue32Fixture.cs" />
     <Compile Include="GeoJSON\LinkedCRSTest.cs" />
     <Compile Include="GeoJSON\NamedCRSTest.cs" />
+    <Compile Include="GeoJSON\NullGeometryTest.cs" />
     <Compile Include="Issues.cs" />
     <Compile Include="PostgisFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
